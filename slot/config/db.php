@@ -3,7 +3,7 @@
 $db_host = 'localhost';     // Veritabanı sunucusu
 $db_name = 'osmanak1_slot';          // Veritabanı adı
 $db_user = 'osmanak1_slot';          // XAMPP varsayılan kullanıcı adı
-$db_pass = 'Ossmann.55';              // XAMPP varsayılan şifre (boş)
+$db_pass = '';              // XAMPP varsayılan şifre (boş)
 
 try {
     $db = new PDO("mysql:host={$db_host};dbname={$db_name};charset=utf8mb4", $db_user, $db_pass);
