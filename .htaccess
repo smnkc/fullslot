@@ -1,0 +1,8 @@
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .css .js .xml .json .rss
+
+<IfModule mod_headers.c>
+    Header set Content-Type "text/html; charset=UTF-8"
+</IfModule>
+
+php_value default_charset "UTF-8" 

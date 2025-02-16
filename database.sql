@@ -145,4 +145,4 @@ ON DUPLICATE KEY UPDATE setting_value = VALUES(setting_value);
 
 -- Admin hesabını oluştur
 INSERT INTO `users` (`username`, `password`, `email`, `is_admin`, `credits`) VALUES 
-('admin', '$2y$10$eRGCs3y7UeBj2UlVBfA.tOM1EUIrOcsSBasNqf0TJmCn2sThHHqwC', 'admin@os.org', TRUE, 9999999.99);
+('admin', '$2y$10$eRGCs3y7UeBj2UlVBfA.tOM1EUIrOcsSBasNqf0TJmCn2sThHHqwC', 'admin@osmanakca.org', TRUE, 9999999.99);
