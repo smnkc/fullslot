@@ -1,8 +1,8 @@
 <?php
 // Veritabanı bağlantı bilgileri
 $db_host = 'localhost';     // Sunucu adı
-$db_name = 'osmanak1_slot'; // Veritabanı adı (cPanel'den oluşturduğunuz)
-$db_user = 'osmanak1_slot'; // Veritabanı kullanıcı adı (cPanel'den oluşturduğunuz)
+$db_name = ''; // Veritabanı adı (cPanel'den oluşturduğunuz)
+$db_user = ''; // Veritabanı kullanıcı adı (cPanel'den oluşturduğunuz)
 $db_pass = 'BURAYA_CPANELDEN_ALDIGINIZ_SIFREYI_YAZIN'; // Veritabanı şifresi
 
 try {
